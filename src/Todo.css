@@ -1,0 +1,24 @@
+ul{
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid blue;
+    font-size: 20px;
+}
+.container{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button{
+    flex-direction: row;
+}
+input{
+    height: 24px;
+    margin-right: 24px;
+}
